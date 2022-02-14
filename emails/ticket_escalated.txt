@@ -1,0 +1,19 @@
+こんにちは。
+
+サポートチケットは %%ESCALATED_BY_RULE%% によってエスカレーションされました。
+
+件名: %%SUBJECT%% です。
+カテゴリ: %%CATEGORY%%.
+優先度： %%PRIORITY%%。
+ステータス： %%STATUS%。
+配属先 : %%OWNER%%
+トラッキングID：%%TRACK_ID%%。
+
+このチケットはこちらでご覧いただけます。
+%%TRACK_URL%% です。
+
+
+敬具
+
+%%SITE_TITLE%%。
+%%SITE_URL%%
