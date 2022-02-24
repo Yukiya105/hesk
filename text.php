@@ -1203,7 +1203,7 @@ $hesklang['show_select']='Show &quot;Click to select&quot; as default option';
 $hesklang['mms']='メンテナンスモード';
 $hesklang['mmd']='メンテナンスモードを有効にする';
 // Customer notice
-$hesklang['mm1']='Maintenance in progress';
+$hesklang['mm1']='メンテナンス中';
 $hesklang['mm2']='In order to perform scheduled maintenance, our help desk has shut down temporarily.';
 $hesklang['mm3']='We apologize for the inconvenience and ask that you please try again later.';
 // Staff notice
@@ -1588,8 +1588,8 @@ $hesklang['q_q']='Question (HTML code is <span class="success">allowed</span>)';
 $hesklang['q_a']='Answer';
 $hesklang['admin_login']='Welcome! Please log in.';
 $hesklang['this_field_is_required']='This field is required';
-$hesklang['reset_your_password']='Reset your password';
-$hesklang['reset_password_instructions']='Please fill out the form below. We will send you a link to where you can reset your password.';
+$hesklang['reset_your_password']='パスワードの再設定';
+$hesklang['reset_password_instructions']='以下のフォームに必要事項を入力してください。パスワードをリセットするためのリンクをお送りします。';
 $hesklang['enter_email']='Enter email';
 $hesklang['passs']='Reset Password';
 $hesklang['password_reset_check_your_email']='Check your email';
