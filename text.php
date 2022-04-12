@@ -1053,10 +1053,10 @@ $hesklang['updates2']='HESKのアップデートを自動でチェックしま�
 
 
 // Added or modified in version 2.5.0
-$hesklang['emp']='Your PHP does not have MySQL support enabled (mysqli extension required)';
-$hesklang['attdel']='This file has been deleted from the server and is no longer available for download';
-$hesklang['cannot_move_tmp']='Cannot move file to the attachments folder';
-$hesklang['dsen']='Don\'t send email notification of this reply to the customer';
+$hesklang['emp']='お使いのPHPでMySQLのサポートが有効になっていません（mysqliエクステンションが必要です）。';
+$hesklang['attdel']='このファイルはサーバーから削除され、ダウンロードすることはできません。';
+$hesklang['cannot_move_tmp']='添付ファイルフォルダにファイルを移動できない';
+$hesklang['dsen']='この返信をお客様にメールで通知しない';
 $hesklang['attrem']='* Some attached files have been removed *';
 $hesklang['attnum']='Max number reached: %s'; // %s will show attachment name
 $hesklang['attsiz']='File too large: %s'; // %s will show attachment name
@@ -1132,20 +1132,20 @@ $hesklang['close_this_ticket']='Mark this ticket Resolved';
 
 
 // Added or modified in version 2.6.0
-$hesklang['ms01']='Jan';
-$hesklang['ms02']='Feb';
-$hesklang['ms03']='Mar';
-$hesklang['ms04']='Apr';
-$hesklang['ms05']='May';
-$hesklang['ms06']='Jun';
-$hesklang['ms07']='Jul';
-$hesklang['ms08']='Aug';
-$hesklang['ms09']='Sep';
-$hesklang['ms10']='Oct';
-$hesklang['ms11']='Nov';
-$hesklang['ms12']='Dec';
+$hesklang['ms01']='１月';
+$hesklang['ms02']='２月';
+$hesklang['ms03']='３月';
+$hesklang['ms04']='４月';
+$hesklang['ms05']='５月';
+$hesklang['ms06']='６月';
+$hesklang['ms07']='７月';
+$hesklang['ms08']='８月';
+$hesklang['ms09']='９月';
+$hesklang['ms10']='１０月';
+$hesklang['ms11']='１１月';
+$hesklang['ms12']='１２月';
 $hesklang['sdf']='提出された日付の形式';
-$hesklang['lcf']='Updated date format';
+$hesklang['lcf']='日付フォーマットの更新';
 $hesklang['lcf0']='ショート ディスクリプション';
 $hesklang['lcf1']='日にちと時間';
 $hesklang['lcf2']='HESK スタイル';
@@ -1491,7 +1491,7 @@ $hesklang['fd']='Export file deleted from server';
 // Added or modified in version 2.8.0
 $hesklang ['TZ'] = 'タイムゾーン';
 $hesklang ['thist17'] = '<li class = "smaller">%s | IMAPフェッチによって送信されました</ li> ';
-$hesklang ['sir3'] = 'Invisible reCAPTCHA';
+$hesklang ['sir3'] = 'reCAPTCHAを隠す';
 $hesklang ['invisible'] = 'invisible';
 $hesklang ['rcpb'] = 'サイトキー';
 $hesklang ['rcpv'] = 'シークレットキー';
@@ -1639,9 +1639,9 @@ $hesklang['rh']='Rated as helpful';
 $hesklang['rnh']='Rated as not helpful';
 $hesklang['ac']='Articles in this category';
 $hesklang['sr']='Search Results';
-$hesklang['no_results_found']='No Results Found';
-$hesklang['ad']='Article Details';
-$hesklang['hni3']='To install HESK, follow <a class="link" href="docs/">Instructions in the documentation</a>';
+$hesklang['no_results_found']='検索結果が見つかりません';
+$hesklang['ad']='記事詳細';
+$hesklang['hni3']='HESKをインストールするには、次のようにします。 <a class="link" href="docs/">ドキュメントでの説明</a>';
 $hesklang['site_theme']='サイトテーマ';
 $hesklang['test_theme_folder']='テーマフォルダーをテスト';
 $hesklang['test_theme_folder_description']='テーマフォルダが有効なテーマかどうかテストします。すべてのテストに合格したテーマのみが正しくインストールされます。';
@@ -1677,7 +1677,7 @@ $hesklang ['thu'] = '木';
 $hesklang ['fri'] = '金';
 $hesklang ['sat'] = '土';
 $hesklang ['sun'] = '日';
-$hesklang ['clear'] = 'Clear'; //フィールド値を削除します
+$hesklang ['clear'] = '消去'; //フィールド値を削除します
 $hesklang ['first_day_of_week'] = '0'; //週の最初の日; 0 =日曜日、1 =月曜日、2 =火曜日、..。
 $hesklang ['cat_intro'] = 'ここで、カテゴリを管理できます。カテゴリは便利です
 関連性によってチケットを分類するため（たとえば、「販売」、
