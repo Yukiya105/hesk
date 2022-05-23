@@ -1459,7 +1459,7 @@ $hesklang['status_hesk']='内蔵のステータス（ここでは変更不可）
 $hesklang['status_custom']='Custom Statuses';
 $hesklang['list_tkt_status']='List all tickets with this status';
 $hesklang['new_status']='新しいカスタムステータス';
-$hesklang['edit_status']='Edit custom status';
+$hesklang['edit_status']='カスタムステータスを編集する';
 $hesklang['err_status']='Enter the status name';
 $hesklang['status_added']='A new custom status has been added';
 $hesklang['status_e_id']='Invalid ID';
@@ -1575,10 +1575,10 @@ $hesklang ['sm_return_to_editing'] = '編集に戻る';
 $hesklang ['email_tpl_title'] = 'タイトル';
 $hesklang ['rdesc'] = '説明';
 $hesklang['etfm']='One or more email templates are missing.<br>Make sure you upload all email template files inside your <i>/language/%s/emails</i> folder.';
-$hesklang['etfw']='Some email templates are not writable.<br>
+$hesklang['etfw']='一部のメールテンプレートは書き込みができません。<br>
                     Make sure PHP has permission to write to all files inside your <i>/language/%s/emails</i> folder.<br>
                     On Unix servers you might need to CHMOD email templates to 666 (rw-rw-rw-)';
-$hesklang['edit_email_template']='Edit email template';
+$hesklang['edit_email_template']='メールテンプレートの編集';
 $hesklang['et_save']='Save Changes';
 $hesklang['status_custom_none']='No custom statuses. You can add them by clicking "New custom status" above.';
 $hesklang['status_save']='Save';
@@ -1637,8 +1637,8 @@ $hesklang['yes_title_case']='Yes';
 $hesklang['no_title_case']='No';
 $hesklang['rh']='Rated as helpful';
 $hesklang['rnh']='Rated as not helpful';
-$hesklang['ac']='Articles in this category';
-$hesklang['sr']='Search Results';
+$hesklang['ac']='このカテゴリの記事';
+$hesklang['sr']='検索結果';
 $hesklang['no_results_found']='検索結果が見つかりません';
 $hesklang['ad']='記事詳細';
 $hesklang['hni3']='HESKをインストールするには、次のようにします。 <a class="link" href="docs/">ドキュメントでの説明</a>';
@@ -1652,14 +1652,14 @@ $hesklang['confirm_delete_status']='このカスタムステータスを本当�
 $hesklang['critical']='重大な問題';
 $hesklang['canned_add']='新しい定型文';
 $hesklang['ticket_tpl_add']='新しいチケットテンプレート';
-$hesklang['help_desk']='Help Desk'; // Displayed on staff sidebar menu
+$hesklang['help_desk']='ヘルプデスク'; // スタッフサイドバーメニューに表示
 
 // Added or modified in HESK 3.1.0
 $hesklang['TIMEAGO_LANG_FILE']='jquery.timeago.en.js'; // Name of the proper language file in folder /js/timeago/locales
 $hesklang['tdis']='時間表示';
 $hesklang['tdisd']='日にちと時間';
 $hesklang['tdisa']='時間前（例：5時間前）';
-$hesklang['nav_templates']='テンプレート'; // Admin panel navigation item
+$hesklang['nav_templates']='テンプレート'; // 管理画面のナビゲーション項目
 $hesklang['hide_replies']='チケットの返信を非表示にする';
 $hesklang['hide_replies_no']='非表示にせず、常にすべての返信を表示する';
 $hesklang['hide_replies_yes']='最後の返信以外を非表示にする。';
